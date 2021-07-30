@@ -1,0 +1,511 @@
+body {
+    margin: 0;
+}
+
+.logoDiv{
+    display: flex;
+    width: 99vw;
+    justify-content: center;
+}
+
+header{
+    background-color: white;
+}
+
+#principalindex{
+    height: 40vh;
+    background-image: url("images/backContato.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.TotalIcons{
+    padding-top: 30px;
+    margin-right: 2vw;
+    position: absolute;
+    right: 0;
+}
+
+.iconesClass{
+    display: flex;
+    width: 190px;
+    justify-content: flex-end;
+}
+
+.fixos{
+    position: fixed;
+}
+
+#menu{
+    width: 99vw;
+}
+
+#menu ul{
+    padding: 0px;
+    background-color: #d6d6d6;
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+    
+#menu ul li{
+    padding: 5px 0px;
+    display: inline-block;
+}
+
+#menu ul li a{
+    padding: 8px 28px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-family: times;
+}
+
+#menu ul li a:hover{
+    background-color: #F08080;
+    color: #ffffff;
+}
+
+.resto{
+    color: #333333;
+}
+
+.posicao{
+    color: #a11521;
+    font-weight: bolder;
+}
+
+.logo{
+    width: 50vw;
+}
+
+.icons {
+    width: 2rem;
+    height: 2rem;
+    padding: 0px 5px;
+}
+
+.iconEmail{
+    width: 1rem;
+    height: 1rem;
+    padding: 5px 5px 5px 5px;
+}
+
+.emailh5{
+    padding: 0px;
+    margin-top: 5px;
+}
+
+#sobre{
+    width: 95vw;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+.titulo h1{
+    padding-top: 1rem;
+}
+
+#principal{
+    width: 100vw;
+    background-image: url("images/backindex.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 50px;
+}
+
+.sobreNos, .sobreNos1{
+    text-align: justify;
+    margin-top: 1px;
+}
+
+.fundobranco{
+    background-color: rgba(255, 255, 255, 0.836);
+    border-radius: 30px;
+}
+
+.sobreNos1{
+    padding: 0px 30px 10px 30px;
+}
+
+.h2titulo{
+    margin-top: 2rem;
+    padding: 30px 30px 10px 30px;
+}
+
+.topicostotal{
+    display: flex;
+    padding: 0px 0px 0px 30px;
+}
+
+.sobretopicos{
+    width: 55vw;
+    padding: 0px;
+}
+
+.h2topicos{
+    padding-top: 50px;
+}
+
+.imagemGian{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.imggian{
+    width: 30vw;
+}
+
+.gian{
+    width: 30vw;
+    height: auto;
+}
+
+.imggian h4{
+    text-align: center;
+}
+
+#servicos p{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.phone{
+    display: none;
+}
+
+.servicostotal{
+    display: flex;
+    width: 99vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imga .hidden{
+    display: none;
+}
+
+.imgnome {
+    width: 13rem;
+    height: 274px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.imga{
+    width: 13rem;
+    margin: 25px 40px;
+}
+
+.imga a:hover .hidden{
+    display: block;
+    text-align: center;
+}
+
+.imgnome img{
+    width: 13rem;
+    height: 13rem;
+    border-bottom: 2px solid black;
+    
+}
+
+.imga a:hover .imgnome img{
+    display: none;
+}
+
+.imga a:hover .imgnome h2{
+    height: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.hidden h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    border-top: 2px solid black;
+    margin: 0px;
+    padding: 5px;
+    background-color: white;
+}
+
+.imgnome h2{
+    height: 3.5rem;
+    font-size: 21px;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+
+}
+
+.hidden img{
+    width: 32px;
+    height: 32px;
+    padding: 16px 0px 0px 0px;
+}
+
+#principalC{
+    display: flex;
+    width: 99vw;
+    background-image: url("images/backContato.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contatando {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.contatoh4, .divcontato h1 {
+    font-weight: normal;
+    padding-top: 1px;
+    margin-top: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.iconesContato {
+    width: 400px;
+    border: 3px double black;
+    border-radius: 2rem;
+    background-color: rgba(206, 206, 206);
+}
+
+.iconesContato h5{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 5px;
+    margin: 20px;
+}
+
+.iconesContato a {
+    text-decoration: none;
+    color: black;
+}
+
+.iconesContato p {
+    text-align: center;
+}
+
+.whats{
+    background-color: #25D366;
+}
+
+.face{
+    background-color: #4267B2;
+    color: #fffefe;
+}
+
+.email{
+    background-color: rgba(236, 61, 61, 0.521);
+}
+
+#contato {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    padding-right: 8vw;
+    padding-left: 6vw;
+}
+
+.divcontato, .mapa{
+    width: 40vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.divcontato h1, .mapa p {
+    text-align: center;
+}
+
+.mapaFrame{
+    width: 450px; 
+    height: 280px; 
+    border: 1px solid black; 
+    border-radius: 1rem;
+}
+
+.frame {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.whatsphone{
+    display: none;
+}
+
+footer{
+    margin: 0px;
+    width: 99vw;
+    background: #424242;
+}
+
+.fc{
+    border-top: 4px groove black;
+}
+
+footer h5{
+    color: #d8d8d8;
+    padding: 10px 45px 0px 45px;
+}
+
+.h5s{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.direitos{
+    display: flex;
+    justify-content: center;
+}
+
+footer h6 {
+    color: #4d4d4d;
+    padding: 5px;
+}
+
+footer h6 a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+footer img{
+    width: auto;
+    height: 80px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: initial;
+    left: initial;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+footer h5 a {
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+@media all and (max-width:900px) {
+    footer img{
+        display: none;
+    }
+}
+
+@media all and (max-width:700px) {
+    .logo{
+        width: 90vw;
+    }
+
+    #principalC{
+        display: block;
+        background-image: url(images/backContato2.png);
+    }
+
+    .contatando, .divcontato, .mapa, .frame{
+        width: 99vw;
+    }
+
+    #contato {
+        width: 99vw;
+        padding: 0;
+    }
+
+    .mapa{
+        padding: 0px 0px 50px 0px;
+    }
+
+    .mapa p {
+        color: white;
+    }
+
+    #principal{
+        background-image: url("images/backindexphone.jpg");
+        width: 100vw;
+    }
+
+    #sobre{
+        width: 87vw;
+    }
+
+    .topicostotal{
+        display: block;
+    }
+
+    .sobretopicos{
+        width: 80vw;
+    }
+
+    .sobreNos{
+        padding-right: 30px;
+    }
+
+    .imagemGian, .imggian, .gian{
+        width: 75vw;
+    }
+}
+
+@media all and (max-width:550px) {
+    ul, footer, #principalC{
+        width: 100vw;
+    }
+    .classemapa{
+        display: flex;
+        justify-content: center;
+    }
+
+    .divcontato, .mapa, .frame, .iconesContato, .mapaFrame, .contatando{
+        width:80vw;  
+    }
+ 
+    .TotalIcons{
+        display: none;
+    }
+
+    .space {
+        height: 20px;
+    }
+
+    .whatsphone{
+        display: unset;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 4rem;
+        height: 4rem;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width:449px) {
+    .phone{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pc{
+        display: none;
+    }
+
+    #sobre{
+        margin-left: 20px;
+    }
+
+    .imgnome {
+        height: 310px;
+    }
+}
